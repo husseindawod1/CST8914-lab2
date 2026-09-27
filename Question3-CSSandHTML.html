@@ -4,11 +4,12 @@
 <head>
   <title>Question 3- CSS & HTML</title>
   <style>
-    .button {
+    button {
       background-color: #4CAF50;
       border: none;
       color: white;
       padding: 15px 32px;
+      transition: padding 1s ease-in-out;
       text-align: center;
       text-decoration: none;
       display: inline-block;
@@ -17,13 +18,18 @@
       cursor: pointer;
     }
 
+    button:hover{
+      padding:30px 47px;
+      transition: padding 1s ease-in-out;
+    }
+
     body {
       padding: 20px;
       background-color: #2f2f2f;
     }
 
     h1, h2, p {
-      color: black;
+      color: #cfc3c0;
     }
   </style>
 </head>
@@ -34,7 +40,7 @@
 
   <p>What causes errors in HTML?</p>
 
-  <div class="button">Submit answers</div>
+  <button class="submit-answers">Submit answers</button>
 
 </body>
 
